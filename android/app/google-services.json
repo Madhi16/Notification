@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "629775092299",
+    "project_id": "bridgeport-53828",
+    "storage_bucket": "bridgeport-53828.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629775092299:android:157d21e1b6fcde959d1bce",
+        "android_client_info": {
+          "package_name": "com.example.bridgeport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629775092299-726a08pgim9qsf0m5bhrrv3m2qqs9n3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtz1YdzGzOTzaWV-feIO_bwLbHA2vNbAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629775092299-726a08pgim9qsf0m5bhrrv3m2qqs9n3t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "629775092299-280k6hu4pko2k7ndvttr4klcg6n0kvfg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bridgeport"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629775092299:android:485be86c4a44715a9d1bce",
+        "android_client_info": {
+          "package_name": "com.example.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629775092299-726a08pgim9qsf0m5bhrrv3m2qqs9n3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtz1YdzGzOTzaWV-feIO_bwLbHA2vNbAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629775092299-726a08pgim9qsf0m5bhrrv3m2qqs9n3t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "629775092299-280k6hu4pko2k7ndvttr4klcg6n0kvfg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bridgeport"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
