@@ -34,7 +34,6 @@ class _MyAppState extends State<MyApp> {
       });
     });
   }
-
   Future<String?> _getId() async {
 
     var deviceInfo = DeviceInfoPlugin();
