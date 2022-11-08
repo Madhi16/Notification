@@ -63,8 +63,6 @@ class _MyAppState extends State<MyApp> {
       value.setString("fcm_id", fcm_token);
       value.setString("device_id", device_id);
     });
-
-
   }
 }
 
