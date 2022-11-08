@@ -23,7 +23,6 @@ class _MyAppState extends State<MyApp> {
   late SharedPreferences localStorage;
 
   late FirebaseMessaging _fcm;
-
   @override
   void initState() {
     Firebase.initializeApp().then((value) async {
