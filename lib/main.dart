@@ -29,7 +29,6 @@ class _MyAppState extends State<MyApp> {
     Firebase.initializeApp().then((value) async {
       FirebaseMessaging.instance.setForegroundNotificationPresentationOptions(alert: true,badge: true,sound: true);
       FirebaseMessaging.instance.getToken().then((value) async{
-
       //  FirebaseMessaging.instance.subscribeToTopic('bridgeport_notification');
         var device_id=await _getId();
         save(value, device_id);
