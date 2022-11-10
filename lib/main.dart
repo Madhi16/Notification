@@ -8,7 +8,7 @@ import 'home_page.dart';
 
 void main(){
 
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
@@ -21,7 +21,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   late SharedPreferences localStorage;
 
-  late FirebaseMessaging _fcm;
   @override
   void initState() {
     Firebase.initializeApp().then((value) async {
@@ -34,7 +33,6 @@ class _MyAppState extends State<MyApp> {
     });
   }
   Future<String?> _getId() async {
-
     var deviceInfo = DeviceInfoPlugin();
     if (Platform.isIOS) { // import 'dart:io'
       var iosDeviceInfo = await deviceInfo.iosInfo;
